@@ -1,0 +1,74 @@
+
+
+.slider{
+    position: relative;
+    top:3%;
+    left: 4%;
+    width: 92%; /* tamanho do box com as imagens */
+    overflow: hidden;
+}
+
+.images{
+    display: flex;
+    width: 100%;
+}
+
+.images img{
+    height: 300px; /* tamanho das fotos */
+    width: 100%;
+    border-radius: 30px;
+    transition: all 0.15s ease;
+}
+
+.images input{
+    display: none;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.dots label{
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    border: 2px solid rgb(49, 49, 49);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 3px; /* margem entre as bolinhas de passar as fotos */
+}
+
+.dots label:hover {
+    background: rgb(255, 0, 0); /* Cor interna das bolinhas de passar as fotos*/
+}
+
+#img1:checked ~ .m1{
+    margin-left: 0;
+}
+
+#img2:checked ~ .m2{
+    margin-left: -100%;
+}
+
+#img3:checked ~ .m3{
+    margin-left: -200%;
+}
+
+#img4:checked ~ .m4{
+    margin-left: -300%;
+}
+
+#img5:checked ~ .m5{
+    margin-left: -400%;
+}
+
+#img6:checked ~ .m6{
+    margin-left: -500%;
+}
+
+#img7:checked ~ .m7{
+    margin-left: -600%;
+}
+

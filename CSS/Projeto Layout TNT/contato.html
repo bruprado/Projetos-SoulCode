@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato</title>
+        <link rel="stylesheet" href="contato.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="img/tntLogo.png" id="logo" alt="logo">
+                <ul>
+                    <li class="borderMenu"><a href="index.html">Home</a></li>
+                    <li class="borderMenu"><a href="produtos.html">Produtos</a></li>
+                    <li class="borderMenu"><a href="">Quem Somos</a></li>
+                    <li class="borderMenu"><a href="contato">Contato</a></li>
+                </ul>
+    
+                <div class="buscar">
+                    <button>
+                        <img src="img/lupa (2).png" alt="lupa">
+                    </button>
+                    <label for="buscar" id="buscarLabel"></label>
+                    <input type="Buscar" id="Buscar" placeholder="Buscar" pattern="[a-zA-Z\s]+$">
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="contact">
+                <h2>CONTATO</h2>
+            </div>
+            
+            <section class="container">
+                <div class="form">
+                    <form>
+                        <div class="nome">
+                            <label for="name">NOME</label>
+                            <input type="text" id="name">
+                        </div>
+                        
+                        <br>
+
+                        <div>
+                            <label for="email">E-MAIL</label>
+                            <input type="email" id="email">
+                        </div>
+
+                        <div class="write">
+                            <label for="date">DATA NASCIMENTO</label>
+                    
+                            <label for="sex">SEXO</label>
+                            
+                        </div>
+
+                        <div class="inputs">
+                            <input type="date" id="date">
+
+                            <select name="sex" id="sex">
+                                <option value=""></option>
+                                <option value="Feminino">FEMININO</option>
+                                <option value="Masculino">MASCULINO</option>
+                                <option value="Outro">OUTRO</option>
+                                <option value="NA">PREFIRO NÃO INFORMAR</option>
+                            </select>
+                        </div>
+                        
+                        <div class="write">
+                            <label for="tel">TEL</label>
+
+                            <label for="phone">CEL</label>
+                        </div>
+
+                        <div class="inputs">
+                            <input type="tel" id="tel" placeholder="(XX) X-XXXX-XXXX">
+
+                            <input type="tel" id="phone" placeholder="(XX) X-XXXX-XXXX">
+                        </div>
+
+                        <div class="write">
+                            <label for="state">ESTADO</label>
+
+                            <label for="cep">CEP</label>
+                        </div>
+
+                        <div class="inputs">
+                            <select name="state" id="state">
+                                <option></option>
+                                    <option>AC</option>
+                                    <option>AL</option>
+                                    <option>AP</option>
+                                    <option>AM</option>
+                                    <option>BA</option>
+                                    <option>CE</option>
+                                    <option>DF</option>
+                                    <option>ES</option>
+                                    <option>GO</option>
+                                    <option>MA</option>
+                                    <option>MT</option>
+                                    <option>MS</option>
+                                    <option>MG</option>
+                                    <option>PA</option>
+                                    <option>PB</option>
+                                    <option>PR</option>
+                                    <option>PE</option>
+                                    <option>PI</option>
+                                    <option>RJ</option>
+                                    <option>RN</option>
+                                    <option>RS</option>
+                                    <option>RO</option>
+                                    <option>RR</option>
+                                    <option>SC</option>
+                                    <option>SP</option>
+                                    <option>SE</option>
+                                    <option>TO</option>
+                            </select>
+
+                            <input type="text" id="cep">
+                        </div>
+
+                        <br>
+
+                        <div>
+                            <label for="adress">ENDEREÇO</label>
+                            
+                            <input type="text" id="adress">
+                            
+                        </div>
+
+                        <div class="write">
+                            <label for="neigh">BAIRRO</label>
+
+                            <label for="city" id="cityLabel">CIDADE</label>
+                        </div>
+
+                        <div class="inputs">
+                            <input type="text" id="neigh">
+
+                            <input type="text" id="city">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="form">
+                    <form action="">
+
+                        <div>
+                            <label for="subject">ASSUNTO</label>
+                            <select name="subject" id="subject">
+                                <option></option>
+                                <option>ELOGIOS</option>
+                                <option>RECLAMAÇÕES</option>
+                                <option>SUGESTÕES</option>
+                                <option>COMPRA DE PRODUTOS</option>
+                                <option>COLECIONADOR</option>
+                            </select>
+                        </div>
+
+                        <br>
+
+                        <div>
+                            <label for="mesage">MENSAGEM</label>
+                            <textarea name="mesage" id="mesage" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <input type="submit">
+                    </form>
+
+                    <div class="info">
+                        <div>
+                            <p>
+                                Horário de atendimento:
+                                Segunda à sexta das 8h às 17h (exceto feriados)
+                            </p>   
+                        </div>     
+
+                        <br>
+
+                        <div>
+                            <img src="img/telephone-call.png" alt="icone de telefone">
+                        <span>0800 727 9998</span>
+                        </div>
+
+                        <br>
+
+                        <div>
+                            <p>
+                                Se preferir, utilize o formulário.
+                                Sua opinião é muito importante para nós.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="logotipo">
+                <img src="img/tntLogo.png" alt="logotipo" id="logotipo">
+            </div>
+
+            <div class="links">
+                <a href="https://www.tntenergydrink.com.br/termos-e-condicoes/" target="_blank">Termos e Condições</a> |
+                <a href="https://www.grupopetropolis.com.br/gente/trabalhe-conosco/" target="_blank">Trabalhe Conosco</a> |
+                <a href="https://www.grupopetropolis.com.br/privacidade/" target="_blank">Privacidade</a>
+            </div>
+
+            <div class="redes">
+                <a href="https://www.facebook.com/tntenergydrink" target="_blank"><img src="img/logotipo-circular-do-facebook.png" alt="logotipo facebook"></a>
+                <a href="https://www.instagram.com/tntenergydrink/" target="_blank"><img src="img/instagram.png" alt="logotipo instagram"></a>
+                <a href="https://twitter.com/energydrinktnt" target="_blank"><img src="img/logotipo-social-do-twitter (2).png" alt="logotipo twitter"></a>
+                <a href="https://www.youtube.com/user/tntenergetico" target="_blank"><img src="img/youtube.png" alt="logoitpo youtube"></a>
+            </div>
+        </footer>
+    </body>
+</html>

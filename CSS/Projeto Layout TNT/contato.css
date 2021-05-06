@@ -1,0 +1,288 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+/* DEFININDO O TAMANHO DA PÁGINA */
+body {
+    background-image: url(img/background.jpeg);
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
+}
+
+/* DEFININDO O MENU */
+#logo{
+    float: left;
+    left: 1%;
+    position: absolute;
+    width: 100px;
+}
+
+/* MENU */
+.borderMenu { 
+    border-radius: 5px;
+    border-top: 3px solid #919191;
+    border-bottom: 3px solid #FF0000;
+    background-image: 
+    linear-gradient(#919191, #FF0000),
+    linear-gradient(#919191, #FF0000);
+    background-size:3px 100%;
+    background-position: 0 0, 100% 0;
+    background-repeat:no-repeat;
+    padding: 10px;
+    height: 5px;
+    width: 100px;
+}
+
+header{
+    align-content: space-between;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 5%;
+    height: 4.5rem;
+    width: 100%;
+}
+
+
+nav{
+    /* display: flex; */
+    float: left;
+    margin-top: 1.5rem;
+    margin-left: 14rem;
+    width: 100%;
+}
+
+nav ul {
+    float: left;
+    list-style: none;
+}
+
+nav li {
+    background-color: #f7f3f3;
+    float: left;
+    margin-left: 8px;
+    padding: 0px 0;
+    text-align: center;
+}
+
+nav li:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.1);
+}
+
+nav li a {
+    bottom: 7px;
+    color: rgb(0, 0, 0);
+    font-variant: small-caps;
+    font-size: 14pt;
+    position: relative;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+.buscar {
+    position: relative;
+    left: 22%;
+    bottom: 10%;
+}
+
+.buscar input{
+    background-color: #f7f3f3;
+    border: groove 2px #FF0000;
+    border-radius: 15px;
+    position: relative;
+    top: .2rem;
+    left: 2.5rem;
+    height: 1.2rem;
+    text-align: center;
+    outline: none;
+    width: 7rem;
+    z-index: 1;
+}
+
+#Buscar {
+    padding: 0;
+}
+
+#buscarLabel {
+    padding: 0;
+    margin: 0;
+}
+
+div button{
+    border: none;
+    border-radius: 15px;
+    background-color: #ff00003d;
+    outline: none;
+    position: relative;
+    left: 4.5rem;
+    top: .32rem;
+    z-index: 2;
+}
+
+div button img{
+    cursor: pointer;    
+    width: 15.9px;
+}
+
+/* DEFININDO A DIV */
+.container {
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+}
+
+/* TITULO */
+.contact {
+    display: inline-block;
+    font-size: 30pt;
+    margin-left: 10%;
+}
+
+h2:hover {
+    color: red;
+}
+
+/* FORMULÁRIO */
+.form {
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    border-radius: 15%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 50%;
+    height: 90%;
+}
+
+label {
+    padding: 2%;
+    margin-top: 1%;
+}
+
+.write {
+    margin-right: 15%;
+}
+
+.write, .inputs {
+    display: flex;
+    justify-content: space-around;
+}
+
+#date {
+    width: 30%;
+}
+
+#sex {
+    width: 40%;
+}
+
+#cep, #city {
+    width: 30%;
+}
+
+#cityLabel {
+    margin-left: 50%;
+}
+
+#email {
+    margin-top: 1%;
+}
+
+#neigh {
+    width: 50%;
+}
+
+input, select, textarea {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    resize: vertical;
+    width: 90%;
+}
+
+input[type=tel], select {
+    width: 30%;
+}
+
+input[type=submit] {
+    background-color: black;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 14px 20px;
+    margin: 8px 0;
+    width: 96%;
+}
+  
+input[type=submit]:hover {
+    background-color: red;
+}
+
+/* PARTE DO HORÁRIO DE ATENDIMENTO */
+
+.info {
+    font-size: 18pt;
+    font-weight: bolder;
+    margin-left: 5%;
+    position: absolute;
+}
+
+span {
+    padding-left: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    position: relative;
+    background-color: white;
+    margin-top: 10%;
+    width: 100%;
+}
+
+#logotipo {
+    width: 100px;
+}
+
+.logotipo {
+    position: relative;
+    top: 25%;
+}
+
+.links {
+    position: absolute;
+    left: 30%;
+    bottom: 30%;
+    word-spacing: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: red;
+}
+
+.redes {
+    position: relative;
+    float: right;
+    right: 10%;
+    bottom: 20%;
+    word-spacing: 5px;
+}
