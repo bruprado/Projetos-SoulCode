@@ -1,0 +1,123 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+.top{
+    background-color: #21a7d0;
+    text-align-last: center;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+}
+.top img{
+    padding: 5px 2px 2px 2px;
+    width: 20%;   
+}
+.menu{
+    list-style: none;
+    float:center;
+    border: 20px 20px 20px 20px;
+    font-size: 20px;
+}
+.menu li{
+    position: relative;
+    list-style: none;
+    float:left;
+    background: #F6C103; 
+}
+.menu li a{
+    color:#ffffff;
+    text-decoration:none;
+    padding: 2px 10px 2px 10px;
+    display: block;
+}
+.menu li a:hover{
+    background:#3CB4C4;
+    color: #080808;
+}
+.menu li ul{
+    position:absolute;
+    top: 30px;
+    left: 0;
+    background-color:#3CB4C4;
+    display: none;
+}
+.menu li:hover ul{
+    display:block;
+}
+.menu li ul li{
+    display:block;
+    width:150px;
+}
+body{
+    background-color: rgb(231, 244, 246);
+    font-style: italic;
+    color: #ffffff;
+    font-size: 15px; 
+}   
+.pantera{
+    width: 100%;
+    padding: -15px 0px 0px 0px; 
+    margin: -35px 0px 0px 0px;
+}
+figure p{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    background:#daa520;
+    margin: -10px 0px 0px 0px;         
+}
+
+figure p:hover{
+    color:black         
+}
+.branquelas{
+    width: 570px;
+    float:left;
+    padding: 20px 10px 20px 20px; 
+    display: block;  
+    margin-left: auto;
+    margin-right: auto;     
+}
+.ryan{
+    width: 233px;
+    float:left; 
+    padding: 20px 10px 20px 10px;  
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;         
+}
+.milagre{
+    width: 461px;
+    float:left;
+    padding: 20px 10px 20px 20px;  
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;          
+}
+footer p{
+    background: gray;
+    text-align-last: center;
+    padding: 50px 5px 50px 5px;
+    margin: 5px 0px 0px 0px;
+    width: 100%;
+    color: rgb(255, 255, 255);  
+    text-decoration:none; 
+    font: 1em sans-serif;
+    list-style: none;
+
+}
+div {
+    display: flex;
+    justify-content: space-between
+}
+/*  Usando * antes das { para aplicar o estilo em toda a página
+    -top e top img - utilizados para estilizar a barra e logomarca do topo da página
+    -menus - todos utilizados para deixar o menu e submenu horizontais, na cor e tamanho desejado
+    -body - para ajustar todo o fundo da página
+    -figure p - para estilizar a barra do meio da página
+    -figure p:hover - para a fonte mudar de cor ao passar o mouse
+    -.milagre, .ryan, .pantera e .branquelas - para igualar tamanho das imagens
+    -footer p- para fazer um rodapé com fundo na largura total cinza, centralizado e com letra brancas
+    -div - para alinhar as três imagens em uma mesma linha, independente da largura da tela*/
+/*Talita Fernandes*/

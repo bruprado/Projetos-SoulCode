@@ -1,0 +1,77 @@
+h1 {
+    background-color: #3CB4C4;
+    padding-top:1px;
+    height: 50px;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif; 
+}
+
+body {
+    background-color: #f3f2f2;
+}
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+/*Aqui está indicando as margens da página*/
+ 
+.menu {
+    list-style:none;
+    border:1px solid #f8c100;
+    float:left;
+    background-color: #f8c100;
+}
+/*list style tira as bolinhas das listas, e o float serve para deixar o menu vertical*/
+
+.menu li {
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+}
+/*Onde tiver menu + li vai fazer tudo isso aqui em cima */
+
+.menu li a {
+    color: white; 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+}
+/*Onde houver MENU + LI + A ele irá fazer as coisas acima, tratar o display como bloco.*/
+
+.menu li a:hover {
+    background: #3CB4C4;
+    color: yellow;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+}
+/*O hover vai funcionar como se fosse a ação do mouse, quando passo o mouse em cima acontece tal coisa*/
+
+.menu li ul {
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#f8c100;
+    display:none;
+}  
+/*Agora vamos começar a trabalhar com o submenu, vamos começar definindo a sua posição como absoluta(postition:absolute;), para que os itens do submenu não ultrapassem o seu menu pai e para que ele não interfira no fluxo dos elementos do menu.
+Vamos também definir cores de fundo e esconder o submenu com o display:none;*/
+
+.menu li:hover ul, .menu li.hover ul {
+    display:block;
+}
+
+.menu li ul li {
+    border:1px solid #f8c100;
+    display:block;
+    width:150px;
+}
+
+.bolinhas {
+    list-style:none;
+}
