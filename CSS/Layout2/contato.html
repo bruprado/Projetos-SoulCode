@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="author" content="Angela Mutsumi, Bruna, Marta, Tainá e Vitória.">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto TNT - Contato</title>
+        <link rel="stylesheet" href="./contato.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Staatliches&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">        
+    </head>
+    <body>
+        <header>
+            <img src="./img/logo.png" alt="Logo TNT">
+            <div id="divBusca">
+                <input type="text" id="busca" placeholder="Buscar"/>
+                <img src="./img/icon_search.png" alt="Lupa">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./quem_somos.html">Quem somos</a></li>
+                    <li><a href="./produtos.html">Produtos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>      
+        </header>
+        <main>
+            <form action="#">
+                <h1>Contato</h1>
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>                    
+                        <div>
+                            <label for="nascimento">Data de nascimento</label>
+                            <input type="text" name="nascimento" id="nascimento" placeholder="xx/xx/xxxx">
+                        </div>
+                        <div>
+                            <label for="sexo">Sexo</label>
+                            <select name="sexo" id="sexo">
+                                <option></option>
+                                <option value="feminino">feminino</option>
+                                <option value="masculino">masculino</option>
+                                <option value="outros">outros</option>
+                            </select>
+                        </div>               
+                    <div>
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" name="telefone" id="telefone" placeholder="(xx)xxxxx-xxxx">
+                    </div>
+                    <div>
+                        <label for="cep" >CEP</label>
+                        <input type="text" name="cep" id="cep" placeholder="xxxxx-xxx">
+                    </div>
+                    <div>
+                        <label for="endereço">Endereço</label>
+                        <input type="text" name="endereço" id="endereço">
+                    </div>
+                    <div>
+                        <label for="endereço">Bairro</label>
+                        <input type="text" name="bairro" id="bairro">
+                    </div>
+                    <div>
+                        <label for="endereço">Cidade</label>
+                        <input type="text" name="cidade" id="cidade">
+                    </div>
+                    <div>
+                        <label for="estado">Estado</label>
+                        <select name="estado" id="estado">
+                                <option></option>
+                                <option>AC</option>
+                                <option>AL</option>
+                                <option>AP</option>
+                                <option>AM</option>
+                                <option>BA</option>
+                                <option>CE</option>
+                                <option>DF</option>
+                                <option>ES</option>
+                                <option>GO</option>
+                                <option>MA</option>
+                                <option>MT</option>
+                                <option>MS</option>
+                                <option>MG</option>
+                                <option>PA</option>
+                                <option>PB</option>
+                                <option>PR</option>
+                                <option>PE</option>
+                                <option>PI</option>
+                                <option>RJ</option>
+                                <option>RN</option>
+                                <option>RS</option>
+                                <option>RO</option>
+                                <option>RR</option>
+                                <option>SC</option>
+                                <option>SP</option>
+                                <option>SE</option>
+                                <option>TO</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="assunto">Assunto</label>
+                        <select name="assunto" id="assunto">
+                            <option></option>
+                            <option value="elogios">Elogios</option>
+                            <option value="reclamações">Reclamações</option>
+                            <option value="sugestões">Sugestões</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem*</label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="8"></textarea>
+                    </div>
+                    <div id="checkbox">
+                        <input type="checkbox" name="informações" id="informações">
+                        <label for="informações">Desejo receber informações da TNT Energy Drink.</label>
+                    </div>
+                    <div id="dados">*Dados obrigatórios</div>
+                    <button>Enviar</button>  
+            </form>
+            <div id="orientações">
+                <p>Se você tem alguma dúvida, sugestão ou quer mandar um recado, utilize o formulário. Sua opinião é muito importante para nós.</p>                  
+                <p>SAC:0800 727 9998</p>
+                <p>Horário de atendimento: <br> Segunda à sexta das 8h às 17h (exceto  feriados).
+                </p>
+            </div>
+        </main>
+        <footer>
+            <img src="./img/logo.png" alt="Logo da TNT">
+            <div>
+                <a href="https://www.facebook.com/tntenergydrink" target="_blank"><img src="./img/facebook.png" id="icons"></a>
+                <a href="https://www.instagram.com/tntenergydrink/" target="_blank"><img src="./img/instagram.png" id="icons"></a>
+                <a href="https://twitter.com/energydrinktnt" target="_blank"><img src="./img/twitter.png" id="icons"></a>
+                <a href="https://www.youtube.com/channel/UC0DRIgiFpx5Xjen15DHxcYQ" target="_blank"><img src="./img/youtube.png" id="icons"></a>
+            </div>
+        </footer>
+    </body>
+</html>
