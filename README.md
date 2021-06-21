@@ -2,6 +2,7 @@
  Projetos realizados ao final de cada ciclo na SoulCode Academy.
 
 # Primeiro Ciclo: HTML
+link: https://github.com/bruprado/Projetos-SoulCode/tree/main/HTML
 * Proposta do projeto:
 PROJETO CINEMA
 
@@ -15,6 +16,7 @@ Cada categoria deve ter sua própria página, contendo pelo menos 2 filmes/séri
 Apenas um componente do grupo deve anexar os arquivos do projeto, e informar quem são as pessoas do seu grupo.
 
 # Segundo Ciclo: CSS
+link: https://github.com/bruprado/Projetos-SoulCode/tree/main/CSS
 * Proposta do projeto:
 PROJETO 3 LAYOUTS
 
@@ -37,6 +39,7 @@ Seguem alguns requisitos que deverão conter nas seções:
 • No index deve ser inserido (comentário) no código o nome da equipe sendo 2 nomes dentro do <head> e os outros uma linha acima do fechamento </html>
 
 # Terceiro Ciclo: JAVASCRIPT
+link: https://github.com/bruprado/Projetos-SoulCode/tree/main/JAVASCRIPT/Projeto%20Calculadora
 * Proposta do projeto:
 PROJETO CALCULADORA
 
@@ -69,6 +72,7 @@ C. Considerar mercado comercial fechamento dia 16/03/2021
 D. Usuário não pode digitar numero negativo ou letras em caso de erro de digitação enviar um alert
 
 # Quarto Ciclo: JQUERY
+link: https://github.com/bruprado/Projetos-SoulCode/tree/main/JQUERY
 * Proposta do projeto: PROJETO INFORMATIVO COVID
 
 Construam um Site informativo sobre a Pandemia Coronavírus.
